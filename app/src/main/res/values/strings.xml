@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">InventoryApp</string>
     <string name="add_image">Adicionar Imagem</string>
+    <string name="editor_namehint">Nome do Produto</string>
+    <string name="button_editor_decrement">Diminuir</string>
+    <string name="button_editor_increment">Aumentar</string>
+    <string name="editor_quantityhint">Quantidade do Produto</string>
+    <string name="all_cancel">Cancelar</string>
+    <string name="all_save">Salvar</string>
+    <string name="all_addnewproduct">Adicionar novo produto.</string>
+    <string name="all_deleteallproducts">Deletar todos produtos.</string>
+    <string name="all_insertdummyproduct">Adicionar produto de Teste</string>
+    <string name="all_settings">Configurações</string>
 </resources>
