@@ -1,118 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context=".EditorActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imageview_editor_product"
-        android:layout_width="@dimen/imageview_all_product_200dp"
-        android:layout_height="@dimen/imageview_all_product_200dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/img_no_image"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="44dp" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_editor_addimage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_all_default_16dp"
-        android:text="@string/add_image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageview_editor_product" />
-
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout_editor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_all_default_16dp"
-        android:layout_marginLeft="@dimen/margin_all_default_16dp"
-        android:layout_marginEnd="@dimen/margin_all_default_16dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/button_editor_addimage"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="245dp">
+        android:padding="@dimen/padding_all_defaultpadding_16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_editor_product"
+            android:layout_width="@dimen/imageview_editor_productimage_200dp"
+            android:layout_height="@dimen/imageview_editor_productimage_200dp"
+            android:layout_marginTop="@dimen/margin_all_defaultmargin_16dp"
+            app:layout_constraintEnd_toEndOf="@id/constraintlayout_editor"
+            app:layout_constraintStart_toStartOf="@id/constraintlayout_editor"
+            app:srcCompat="@drawable/img_no_image"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_editor_addimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all_defaultmargin_16dp"
+            android:text="@string/add_image"
+            app:layout_constraintEnd_toEndOf="@id/constraintlayout_editor"
+            app:layout_constraintStart_toStartOf="@id/constraintlayout_editor"
+            app:layout_constraintTop_toBottomOf="@id/imageview_editor_product" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edittext_editor_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/background_edit_text"
-                    android:hint="@string/editor_namehint"
-                    android:paddingStart="8dp"
-                    android:paddingLeft="8dp"
-                    android:textSize="20sp"
-                    tools:ignore="RtlSymmetry" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/edittext_editor_quantity"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/background_edit_text"
-                    android:hint="@string/editor_quantityhint"
-                    android:paddingStart="8dp"
-                    android:paddingLeft="8dp"
-                    android:textSize="20sp"
-                    tools:ignore="RtlSymmetry" />
-            </com.google.android.material.textfield.TextInputLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_all_defaultmargin_16dp"
+            android:layout_marginLeft="@dimen/margin_all_defaultmargin_16dp"
+            android:layout_marginEnd="@dimen/margin_all_defaultmargin_16dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/button_editor_addimage"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="245dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/button_editor_decrement" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="0dp"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edittext_editor_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/background_edit_text"
+                        android:hint="@string/editor_namehint"
+                        android:paddingStart="8dp"
+                        android:paddingLeft="8dp"
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edittext_editor_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/background_edit_text"
+                        android:hint="@string/editor_quantityhint"
+                        android:paddingStart="8dp"
+                        android:paddingLeft="8dp"
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/button_editor_increment" />
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/button_editor_decrement" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/button_editor_increment" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_all_default_16dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints">
-
-        <Button
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/all_cancel"/>
+            android:layout_margin="@dimen/margin_all_defaultmargin_16dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/constraintlayout_editor"
+            tools:ignore="MissingConstraints">
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/all_save"/>
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/all_cancel" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/all_save" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

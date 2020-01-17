@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_all_default_16dp">16dp</dimen>
-    <dimen name="imageview_all_product_200dp">200dp</dimen>
+    <dimen name="margin_all_defaultmargin_16dp">16dp</dimen>
+    <dimen name="imageview_editor_productimage_200dp">200dp</dimen>
+    <dimen name="padding_all_defaultpadding_16dp">16dp</dimen>
+    <dimen name="imageview_product_productimage_300dp">300dp</dimen>
 </resources>
