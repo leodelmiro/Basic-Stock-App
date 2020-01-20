@@ -4,4 +4,11 @@
     <dimen name="imageview_editor_productimage_200dp">200dp</dimen>
     <dimen name="padding_all_defaultpadding_16dp">16dp</dimen>
     <dimen name="imageview_product_productimage_300dp">300dp</dimen>
+    <dimen name="textview_product_currentproductname_42sp">42sp</dimen>
+    <dimen name="textview_product_quantitytitle_20sp">20sp</dimen>
+    <dimen name="textview_product_currentquantity_42sp">42sp</dimen>
+    <dimen name="margin_product_currentquantitystartleftmargin_8dp">8dp</dimen>
+    <dimen name="edittext_editor_edittextheight_40dp">40dp</dimen>
+    <dimen name="padding_editor_defaultpaddingleftstart_8dp">8dp</dimen>
+    <dimen name="edittext_editor_edittextlettersize_20sp">20sp</dimen>
 </resources>

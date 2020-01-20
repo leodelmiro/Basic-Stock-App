@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="menu_all_addnewproduct"
+        android:id="@+id/menu_all_addnewproduct"
         android:title="@string/all_addnewproduct" />
     <item
-        android:id="menu_all_deleteallproducts"
+        android:id="@+id/menu_all_deleteallproducts"
         android:title="@string/all_deleteallproducts"/>
     <item
-        android:id="menu_all_insertdummyproduct"
+        android:id="@+id/menu_all_insertdummyproduct"
         android:title="@string/all_insertdummyproduct"/>
     <item
-        android:id="menu_all_settings"
+        android:id="@+id/menu_all_settings"
         android:title="@string/all_settings"/>
 </menu>

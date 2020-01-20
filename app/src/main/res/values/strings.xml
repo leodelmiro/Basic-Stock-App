@@ -11,4 +11,7 @@
     <string name="all_deleteallproducts">Deletar todos produtos</string>
     <string name="all_insertdummyproduct">Adicionar produto de Teste</string>
     <string name="all_settings">Configurações</string>
+    <string name="product_quantity">Quantidade:</string>
+    <string name="all_back">Voltar</string>
+    <string name="all_edit">Editar</string>
 </resources>

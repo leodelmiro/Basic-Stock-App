@@ -834,10 +834,12 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen imageview_editor_productimage_200dp
+dimen imageview_product_productimage_300dp
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
-dimen margin_default_size
+dimen margin_all_defaultmargin_16dp
 dimen mtrl_bottomappbar_fabOffsetEndMode
 dimen mtrl_bottomappbar_fab_cradle_margin
 dimen mtrl_bottomappbar_fab_cradle_rounded_corner_radius
@@ -901,6 +903,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen padding_all_defaultpadding_16dp
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -995,6 +998,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_edittext_rounded
+drawable background_textview_underlined
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1006,10 +1011,10 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_no_image
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-drawable no_image
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1022,7 +1027,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable product_icon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1051,7 +1055,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addImage
 id alertTitle
 id all
 id always
@@ -1062,6 +1065,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_editor_addimage
 id center
 id center_horizontal
 id center_vertical
@@ -1071,6 +1075,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id constraintlayout_editor
 id container
 id content
 id contentPanel
@@ -1088,6 +1093,8 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id edittext_editor_name
+id edittext_editor_quantity
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1110,6 +1117,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageview_editor_product
+id imageview_product_product
 id info
 id invisible
 id italic
@@ -1122,6 +1131,10 @@ id line3
 id listMode
 id list_item
 id masked
+id menu_all_addnewproduct
+id menu_all_deleteallproducts
+id menu_all_insertdummyproduct
+id menu_all_settings
 id message
 id middle
 id mini
@@ -1143,7 +1156,6 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
-id procuctImage
 id progress_circular
 id progress_horizontal
 id radio
@@ -1205,6 +1217,9 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textview_product_currentproductname
+id textview_product_currentquantity
+id textview_product_quantitytitle
 id time
 id title
 id titleDividerNoCustom
@@ -1302,6 +1317,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1344,11 +1360,23 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string add_image
+string all_addnewproduct
+string all_back
+string all_cancel
+string all_deleteallproducts
+string all_edit
+string all_insertdummyproduct
+string all_save
+string all_settings
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string button_editor_decrement
+string button_editor_increment
 string character_counter_content_description
 string character_counter_pattern
+string editor_namehint
+string editor_quantityhint
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
@@ -1358,6 +1386,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string product_quantity
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

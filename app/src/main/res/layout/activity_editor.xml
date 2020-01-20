@@ -40,9 +40,7 @@
             android:layout_marginLeft="@dimen/margin_all_defaultmargin_16dp"
             android:layout_marginEnd="@dimen/margin_all_defaultmargin_16dp"
             android:orientation="vertical"
-            app:layout_constraintTop_toBottomOf="@id/button_editor_addimage"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="245dp">
+            app:layout_constraintTop_toBottomOf="@id/button_editor_addimage">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,12 +54,12 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edittext_editor_name"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/background_edit_text"
+                        android:layout_height="@dimen/edittext_editor_edittextheight_40dp"
+                        android:background="@drawable/background_edittext_rounded"
                         android:hint="@string/editor_namehint"
-                        android:paddingStart="8dp"
-                        android:paddingLeft="8dp"
-                        android:textSize="20sp"
+                        android:paddingStart="@dimen/padding_editor_defaultpaddingleftstart_8dp"
+                        android:paddingLeft="@dimen/padding_editor_defaultpaddingleftstart_8dp"
+                        android:textSize="@dimen/edittext_editor_edittextlettersize_20sp"
                         tools:ignore="RtlSymmetry" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -73,11 +71,11 @@
                         android:id="@+id/edittext_editor_quantity"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:background="@drawable/background_edit_text"
+                        android:background="@drawable/background_edittext_rounded"
                         android:hint="@string/editor_quantityhint"
-                        android:paddingStart="8dp"
-                        android:paddingLeft="8dp"
-                        android:textSize="20sp"
+                        android:paddingStart="@dimen/padding_editor_defaultpaddingleftstart_8dp"
+                        android:paddingLeft="@dimen/padding_editor_defaultpaddingleftstart_8dp"
+                        android:textSize="@dimen/edittext_editor_edittextlettersize_20sp"
                         tools:ignore="RtlSymmetry" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,7 +103,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_all_defaultmargin_16dp"
-            android:gravity="center_horizontal"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="@id/constraintlayout_editor"
             tools:ignore="MissingConstraints">
