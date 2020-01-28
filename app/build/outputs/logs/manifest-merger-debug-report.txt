@@ -81,14 +81,14 @@ activity#com.example.leodelmiroms.inventoryapp.EditorActivity
 ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:9-61
 	android:name
 		ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:19-49
-activity#com.example.leodelmiroms.inventoryapp.StockActivity
-ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:9-51
-	android:name
-		ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:19-48
 activity#com.example.leodelmiroms.inventoryapp.ProductActivity
+ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:19-50
+activity#com.example.leodelmiroms.inventoryapp.StockActivity
 ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:19-50
+		ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN

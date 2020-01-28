@@ -824,6 +824,8 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen edittext_editor_edittextheight_40dp
+dimen edittext_editor_edittextlettersize_20sp
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -840,6 +842,7 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen margin_all_defaultmargin_16dp
+dimen margin_product_currentquantitystartleftmargin_8dp
 dimen mtrl_bottomappbar_fabOffsetEndMode
 dimen mtrl_bottomappbar_fab_cradle_margin
 dimen mtrl_bottomappbar_fab_cradle_rounded_corner_radius
@@ -904,6 +907,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen padding_all_defaultpadding_16dp
+dimen padding_editor_defaultpaddingleftstart_8dp
+dimen textview_product_currentproductname_42sp
+dimen textview_product_currentquantity_42sp
+dimen textview_product_quantitytitle_20sp
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1011,6 +1018,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_ic_plus
 drawable img_no_image
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1076,6 +1084,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id constraintlayout_editor
+id constraintlayout_product
 id container
 id content
 id contentPanel
@@ -1106,6 +1115,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id floating_action_button
 id forever
 id ghost_view
 id gone
@@ -1213,6 +1223,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error

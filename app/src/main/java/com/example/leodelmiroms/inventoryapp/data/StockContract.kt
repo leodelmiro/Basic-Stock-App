@@ -14,7 +14,7 @@ object StockContract {
             "CREATE TABLE $TABLE_NAME (" +
                     "${BaseColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "$COLUMN_NAME TEXT NOT NULL," +
-                    "$COLUMN_QUANTITY INTEGER NOT NULL DEFAULT 0" +
+                    "$COLUMN_QUANTITY INTEGER NOT NULL DEFAULT 0," +
                     "$COLUMN_IMAGE TEXT)"
 
         const val SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS $TABLE_NAME"
