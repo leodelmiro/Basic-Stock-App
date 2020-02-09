@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StockActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -24,7 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floating_action_button"
+            android:id="@+id/fabMainNewProduct"
             style="@style/Widget.MaterialComponents.FloatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,6 +33,4 @@
             android:src="@drawable/ic_add_white_24dp"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

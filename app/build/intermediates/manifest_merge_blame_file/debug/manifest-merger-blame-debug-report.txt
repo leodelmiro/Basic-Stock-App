@@ -28,15 +28,15 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.leodelmiroms.inventoryapp.EditorActivity" />
-21-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:9-61
-21-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:19-49
-22        <activity android:name="com.example.leodelmiroms.inventoryapp.ProductActivity" />
-22-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:9-53
-22-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:19-50
-23        <activity android:name="com.example.leodelmiroms.inventoryapp.StockActivity" >
+21        <activity android:name="com.example.leodelmiroms.inventoryapp.ProductActivity" />
+21-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:9-62
+21-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:12:19-50
+22        <activity android:name="com.example.leodelmiroms.inventoryapp.EditorActivity" />
+22-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:9-52
+22-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:13:19-49
+23        <activity android:name="com.example.leodelmiroms.inventoryapp.MainActivity" >
 23-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:9-20:20
-23-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:19-48
+23-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:14:19-47
 24            <intent-filter>
 24-->C:\Users\Leonardo\Desktop\ProjectsAndroid\InventoryApp\app\src\main\AndroidManifest.xml:15:13-19:29
 25                <action android:name="android.intent.action.MAIN" />

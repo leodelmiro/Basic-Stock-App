@@ -19,9 +19,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.leodelmiroms.inventoryapp.EditorActivity" />
         <activity android:name="com.example.leodelmiroms.inventoryapp.ProductActivity" />
-        <activity android:name="com.example.leodelmiroms.inventoryapp.StockActivity" >
+        <activity android:name="com.example.leodelmiroms.inventoryapp.EditorActivity" />
+        <activity android:name="com.example.leodelmiroms.inventoryapp.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
